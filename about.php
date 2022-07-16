@@ -32,7 +32,7 @@ include "includes/navbar.inc.php";
                         <div class="h5">Nozipho B Tshuma</div>
                     </div>
                     <div class="col-md-3 col-sm-12">
-                        <img style="height: 350px; width: 100%" class="img-fluid" src="images/favicon.png" alt="Face"/>
+                        <img style="height: 350px; width: 100%" class="img-fluid" src="images/preach.jpeg" alt="Face"/>
                         <div class="h5">Brilliant Bafana</div>
                     </div>
 
