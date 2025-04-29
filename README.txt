@@ -1,44 +1,47 @@
-Directory Structure
--------------------
-css\              - Stylesheets CSS files for the template.
-images\           - Images used in template.
-scripts\          - JavaScript used in the template.
-styles\           - SCSS source files for stylesheets CSS. Available in Purchased versions only.
-favicon.ico       - Favicon placeholder provided for the template.
-index.html        - Main HTML page to open the template in browser.
-*.html            - Additional HTML pages (if any).
-LICENSE-*.txt     - License file as per your downloaded variant.
+DEVELOPER DETAILS
 
-How to Edit the template
-------------------------
+	$backend_developer = 'Tanaka Kadzunge';
+	$email = 'tkadzzz@gmail.com';
+	$linkedin = 'https:/linkedin.com/in/tanaka-kadzunge';
 
-1. Editing Content in template
+SETTING UP THE SYSTEM
 
-To edit the content open the corresponding *.html files and open them
-in an editor such as VSCode or Notepad++.
-Search for the content you want to change and edit it to the text you want.
-Save the file and reopen HTML file in browser to see the changes.
+	1: Extract thie Zipped folder to your xammp/htdocs or wamp64/wwww or lammp/htdocs depending on your server
+	2: start your server
+ 	2: Go to /classes/Dbh.class.php to see the name of the database under $dbname variable
+	3: Navigate to localhost/phpmyadmin on your browser and create Database
+	4: import sql file in the system root folder /sql/.....sql
+	5: Your application is good to go
+ 
 
-2. Editing Styles of template
+LOGGING IN 
 
-The main style is present in css\main.css which you can edit.
-You must know how to edit CSS files to do this.
-If you have purchased any of the premium version then you will also get
-SCSS source files which generates all the styles of the template.
-You can use these SCSS files to make your changes and regenerate CSS.
+    LoginID: tkadzzz@gmail.com
+    Password: 12345678
+    
+    LoginID: aaliyah@gmail.com
+    Password: 12345678
 
-3. Changing Images
 
-You can change images inside the images\ folder.
-Make sure to name the file same as the original file.
-If you wish to change the name of the image file then you must
-also make corresponding change in the HTML file which refer to that image.
+ADITIONAL INFORMATION
 
-How to use the template
------------------------
-Upload the contents to your webserver.
-index.html must be in the main (root) folder of your webserver.
-Do not change the name of the template folders or files unless you know
-what you are doing and are changing the names in HTML files too.
-For webhosting, you can go with https://templateflip.com/go/hosting for easy FTP file uploads.
+	5: The username and passwords may vary depending on the accounts available
+ 	
+ RESETING PASSWORDS :
+  
+	    - go to /localhost/phpmyadmin and select your database
+	    - go to table users
+	    - navigate to password column for the account role you want
+	    - clear the password role
+	    - take not of the loginID, you will need it to login
+	    - go back to localhost/root_folder_of_the_system
+	    - on login, put the loginID and click login
+	    - the system will redirect you to a new page where it will ask you to set a new password
+	    - set the new password and then everything is up to you
+	    - Well done!
+
+Dont hazitate to contact me for further assisten or help, l will get back to you withinn a day
+
+Good luck!!!
+
 
